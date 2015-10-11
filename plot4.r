@@ -2,7 +2,7 @@
 source("load_power_data.r")
 
 # 2. Set the graphics device (output will be plotted to PNG file)
-png("plot4.png", 480, 480, units = "px")
+png("plot4.png", 480, 480, units = "px", bg = "transparent")
 
 # 3. Set up the subplots, 2 rows x 2 cols (also set margins)
 par(mfrow = c(2, 2), mar = c(4, 4, 2, 1), oma = c(0, 0, 2, 0))
