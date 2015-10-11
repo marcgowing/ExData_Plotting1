@@ -20,7 +20,7 @@ with(feb2007, {
   plot(t, Sub_metering_1, type = "l", col = 1, xlab = "", ylab = "Energy sub metering" )
   points(t, Sub_metering_2, type = "l", col = 2 )
   points(t, Sub_metering_3, type = "l", col = 4 )
-  legend("topright", pch = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_1", "Sub_metering_2"), bty = "n")
+  legend("topright", pch = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), bty = "n")
   
   # subplot (2,2)
   plot(t, as.numeric(as.character(Global_reactive_power)), type = "l", ylab = "Global_reactive_power", xlab = "datetime")
